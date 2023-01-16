@@ -1,0 +1,1 @@
+expdp \"sys/password@nombre_base as sysdba\" schemas=nombre_schema exclude=table:TMP_EXT_BECA_SIGE parallel=4 dumpfile=SIB_desa.dmp directory=DBA_RAC logfile=SIB_desa.LOG
