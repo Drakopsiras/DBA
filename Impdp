@@ -1,0 +1,1 @@
+impdp \"sys/password@base_datos as sysdba\" schemas=nombre_schema parallel=4 dumpfile=SIB_desa.dmp directory=DBA_RAC logfile=SIB_desa.LOG
